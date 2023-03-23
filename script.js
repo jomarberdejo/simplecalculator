@@ -7,7 +7,13 @@ calculateBtn.addEventListener('click', ()=>{
     let result= document.querySelector('#result');
     let errorText= document.querySelector('#error');
 
-    
+    if (!firstNum || !secondNum){
+        errorText.innerText= "Please input a number";
+        result.style.display= 'none'
+        errorText.style.display= 'block';
+    }
+
+    else{
         if(select.value== "+"){
             let add= Number(firstNum) + Number(secondNum);
             result.innerHTML= `Result: ${add}`;
@@ -46,7 +52,7 @@ calculateBtn.addEventListener('click', ()=>{
             errorText.style.display= 'block';
         }
 
-    
+    }
 
 
     
