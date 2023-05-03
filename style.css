@@ -12,11 +12,9 @@ body{
 
 
 .input-container{
-    display: grid;
-    place-items: center;
-    margin-top: 10%;
+    margin: 10% auto;
     max-width: 650px;
-    width: 95%;
+    width: 95%
     
 }
 h1{
