@@ -39,7 +39,8 @@ h1{
 }
 .input-value input{
     height: 30px;
-    width: 50px;
+    max-width: 150px;
+    width: 90%;
     
 }
 select{
