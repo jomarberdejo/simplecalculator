@@ -39,6 +39,7 @@ h1{
 }
 .input-value input{
     height: 30px;
+    width: 50px;
     
 }
 select{
