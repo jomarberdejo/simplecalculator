@@ -39,7 +39,8 @@ h1{
 }
 .input-value input{
     height: 30px;
-    
+    width: 250px;
+    max-width: 70%;
 }
 select{
     width: max-content;
